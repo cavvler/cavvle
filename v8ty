@@ -1,1 +1,13 @@
+import cv2
+img = cv2.inread("images/belchera.jpg")
+cv2.inshow("змея", img)
+cv2.waitkey(0)
 
+a = input()
+if a == "змея":
+    print("змея")
+
+a = {"анаконда":1,"белчура":2,"гадюка":3,"гюрза":4,"кобра":5,"питон":6,"крайт":7,"мульга":8,"тайпан":9,"уж":10}
+yhy= input()
+t = a[yhy]
+print(t)
