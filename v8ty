@@ -11,3 +11,33 @@ a = {"анаконда":1,"белчура":2,"гадюка":3,"гюрза":4,"к
 yhy= input()
 t = a[yhy]
 print(t)
+
+
+
+
+
+
+2 guess
+import time
+x = []
+
+
+x.append("#")#добавляет
+# x.remove(12)
+# x.pop()   #убирает
+j=0
+while  j<21:
+    x.append("#")
+    for i in x:
+        print(i, end="")
+    print("\n")
+    j = j + 1
+    time.sleep (0.1)
+j=0
+while j<21:
+        x.pop()
+        for i in x:
+            print(i, end="")
+        print("\n")
+        j = j + 1
+        time.sleep(0.1)
