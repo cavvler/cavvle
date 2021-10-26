@@ -41,3 +41,38 @@ while j<21:
         print("\n")
         j = j + 1
         time.sleep(0.1)
+        
+        
+        
+        
+        
+        #str метод написания как jpeg
+
+# a - добавляет и не удаляет текст
+enigma = open("1212.txt" , "a")
+text = "Da"
+enigma.write(str(text))
+enigma.close()
+# r - считывает файл и позволяет выводить необходимое количество символов
+# enigma = open("zxc.txt" , "r")
+# print(enigma.read(6))
+# enigma.close()
+# w - добавляет и создаёт файл если он не был создан
+
+
+#for
+# enigma = open("zxc.txt" , "a")
+#
+# for y in zxc.txt:
+#     print(y)
+# print("Имя файла" , enigma.name)
+# print("Файл закрыт" , enigma.closed)
+import time
+i = 0
+while True:
+    zxc = open("zxc.txt" , "a")
+    i = i+1
+    zxc.write(str(i))
+    zxc.write(" ")
+    zxc.close()
+    time.sleep(0.1)
