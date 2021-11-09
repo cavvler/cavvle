@@ -76,3 +76,10 @@ while True:
     zxc.write(" ")
     zxc.close()
     time.sleep(0.1)
+
+
+
+
+int целые числа
+float число с плавающей точкой
+srting строка
